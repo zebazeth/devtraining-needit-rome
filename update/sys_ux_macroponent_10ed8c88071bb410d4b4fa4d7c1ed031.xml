@@ -670,18 +670,65 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "Parm1",
+  "label" : "Parm1",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "My string"
+  }
+}, {
+  "name" : "Parm2",
+  "label" : "Parm2",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 42
+  }
+}, {
+  "name" : "Parm3",
+  "label" : "Parm3",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}, {
+  "name" : "Parm4",
+  "label" : "Parm4",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : {
+      "name1" : "value1",
+      "name2" : "value2"
+    }
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-17 19:49:09</sys_created_on>
-        <sys_id>f6527a111b86301068dd5464604bcba8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2021-10-14 13:56:37</sys_created_on>
+        <sys_id>10ed8c88071bb410d4b4fa4d7c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_f6527a111b86301068dd5464604bcba8</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_10ed8c88071bb410d4b4fa4d7c1ed031</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-14 14:21:52</sys_updated_on>
+        <sys_updated_on>2021-10-14 13:56:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
